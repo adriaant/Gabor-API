@@ -1,0 +1,19 @@
+.SILENT:
+
+CC = g++ -O4 -funroll-all-loops -fexpensive-optimizations
+AR = ar
+RM = rm -f
+TOUCH = touch
+
+MFLAGS = all
+
+WHERE = `pwd`/
+OBJECT_DIR = obj/
+LIBRARY_DIR = ../lib/
+INC_DIR = ../include/
+INCLUDE_DIR = -I$(WHERE)../include/ -I$(WHERE)../../include/
+
+LO = $(WHERE)$(OBJECT_DIR)
+LL = $(WHERE)$(LIBRARY_DIR)
+LI = $(WHERE)$(INC_DIR)
+

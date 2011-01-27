@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* Gabor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Gabor.1 */; };
+		FB7E6F6A0F5A8F18008FD5BA /* Gabor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F690F5A8F18008FD5BA /* Gabor.cpp */; };
+		FB7E6F6F0F5A8F58008FD5BA /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F590F5A8EFA008FD5BA /* Utilities.cpp */; };
+		FB7E6F700F5A8F58008FD5BA /* ImageFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F5A0F5A8EFA008FD5BA /* ImageFile.cpp */; };
+		FB7E6F710F5A8F58008FD5BA /* PGMImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F5B0F5A8EFA008FD5BA /* PGMImage.cpp */; };
+		FB7E6F720F5A8F58008FD5BA /* LogPolar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F5C0F5A8EFA008FD5BA /* LogPolar.cpp */; };
+		FB7E6F730F5A8F58008FD5BA /* ContrastFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F5D0F5A8EFA008FD5BA /* ContrastFilter.cpp */; };
+		FB7E6F900F5A902B008FD5BA /* GaborFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F8A0F5A9010008FD5BA /* GaborFilter.cpp */; };
+		FB7E6F910F5A902B008FD5BA /* GaborJet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB7E6F8B0F5A9010008FD5BA /* GaborJet.cpp */; };
+		FB7E6F960F5A906F008FD5BA /* ContrastFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F650F5A8F08008FD5BA /* ContrastFilter.h */; };
+		FB7E6F970F5A906F008FD5BA /* GaborFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F7B0F5A8FF3008FD5BA /* GaborFilter.h */; };
+		FB7E6F980F5A906F008FD5BA /* GaborGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F640F5A8F08008FD5BA /* GaborGlobal.h */; };
+		FB7E6F990F5A906F008FD5BA /* GaborJet.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F7C0F5A8FF3008FD5BA /* GaborJet.h */; };
+		FB7E6F9A0F5A906F008FD5BA /* ImageFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F630F5A8F08008FD5BA /* ImageFile.h */; };
+		FB7E6F9B0F5A906F008FD5BA /* LogPolar.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F670F5A8F08008FD5BA /* LogPolar.h */; };
+		FB7E6F9C0F5A906F008FD5BA /* PGMImage.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F660F5A8F08008FD5BA /* PGMImage.h */; };
+		FB7E6F9D0F5A906F008FD5BA /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7E6F680F5A8F08008FD5BA /* Utilities.h */; };
+		FB7E6FFC0F5A93FF008FD5BA /* libgabor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7E6F550F5A842B008FD5BA /* libgabor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* Gabor.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* gabor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gabor; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* Gabor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Gabor.1; sourceTree = "<group>"; };
+		FB7E6F550F5A842B008FD5BA /* libgabor.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libgabor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7E6F590F5A8EFA008FD5BA /* Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Utilities.cpp; path = ../src/Utilities.cpp; sourceTree = SOURCE_ROOT; };
+		FB7E6F5A0F5A8EFA008FD5BA /* ImageFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageFile.cpp; path = ../src/ImageFile.cpp; sourceTree = SOURCE_ROOT; };
+		FB7E6F5B0F5A8EFA008FD5BA /* PGMImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PGMImage.cpp; path = ../src/PGMImage.cpp; sourceTree = SOURCE_ROOT; };
+		FB7E6F5C0F5A8EFA008FD5BA /* LogPolar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogPolar.cpp; path = ../src/LogPolar.cpp; sourceTree = SOURCE_ROOT; };
+		FB7E6F5D0F5A8EFA008FD5BA /* ContrastFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContrastFilter.cpp; path = ../src/ContrastFilter.cpp; sourceTree = SOURCE_ROOT; };
+		FB7E6F630F5A8F08008FD5BA /* ImageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageFile.h; path = ../include/ImageFile.h; sourceTree = SOURCE_ROOT; };
+		FB7E6F640F5A8F08008FD5BA /* GaborGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GaborGlobal.h; path = ../include/GaborGlobal.h; sourceTree = SOURCE_ROOT; };
+		FB7E6F650F5A8F08008FD5BA /* ContrastFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContrastFilter.h; path = ../include/ContrastFilter.h; sourceTree = SOURCE_ROOT; };
+		FB7E6F660F5A8F08008FD5BA /* PGMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGMImage.h; path = ../include/PGMImage.h; sourceTree = SOURCE_ROOT; };
+		FB7E6F670F5A8F08008FD5BA /* LogPolar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogPolar.h; path = ../include/LogPolar.h; sourceTree = SOURCE_ROOT; };
+		FB7E6F680F5A8F08008FD5BA /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = ../include/Utilities.h; sourceTree = SOURCE_ROOT; };
+		FB7E6F690F5A8F18008FD5BA /* Gabor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Gabor.cpp; path = "../gabor-global/Gabor.cpp"; sourceTree = SOURCE_ROOT; };
+		FB7E6F7B0F5A8FF3008FD5BA /* GaborFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GaborFilter.h; path = "../gabor-global/include/GaborFilter.h"; sourceTree = SOURCE_ROOT; };
+		FB7E6F7C0F5A8FF3008FD5BA /* GaborJet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GaborJet.h; path = "../gabor-global/include/GaborJet.h"; sourceTree = SOURCE_ROOT; };
+		FB7E6F8A0F5A9010008FD5BA /* GaborFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GaborFilter.cpp; path = "../gabor-global/src/GaborFilter.cpp"; sourceTree = SOURCE_ROOT; };
+		FB7E6F8B0F5A9010008FD5BA /* GaborJet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GaborJet.cpp; path = "../gabor-global/src/GaborJet.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7E6FFC0F5A93FF008FD5BA /* libgabor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7E6F530F5A842B008FD5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Gabor */ = {
+			isa = PBXGroup;
+			children = (
+				FB7E6F6D0F5A8F26008FD5BA /* Tools */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Gabor;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FB7E6F5D0F5A8EFA008FD5BA /* ContrastFilter.cpp */,
+				FB7E6F650F5A8F08008FD5BA /* ContrastFilter.h */,
+				FB7E6F8A0F5A9010008FD5BA /* GaborFilter.cpp */,
+				FB7E6F7B0F5A8FF3008FD5BA /* GaborFilter.h */,
+				FB7E6F640F5A8F08008FD5BA /* GaborGlobal.h */,
+				FB7E6F8B0F5A9010008FD5BA /* GaborJet.cpp */,
+				FB7E6F7C0F5A8FF3008FD5BA /* GaborJet.h */,
+				FB7E6F5A0F5A8EFA008FD5BA /* ImageFile.cpp */,
+				FB7E6F630F5A8F08008FD5BA /* ImageFile.h */,
+				FB7E6F5C0F5A8EFA008FD5BA /* LogPolar.cpp */,
+				FB7E6F670F5A8F08008FD5BA /* LogPolar.h */,
+				FB7E6F5B0F5A8EFA008FD5BA /* PGMImage.cpp */,
+				FB7E6F660F5A8F08008FD5BA /* PGMImage.h */,
+				FB7E6F590F5A8EFA008FD5BA /* Utilities.cpp */,
+				FB7E6F680F5A8F08008FD5BA /* Utilities.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* gabor */,
+				FB7E6F550F5A842B008FD5BA /* libgabor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* Gabor.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		FB7E6F6D0F5A8F26008FD5BA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FB7E6F690F5A8F18008FD5BA /* Gabor.cpp */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FB7E6F510F5A842B008FD5BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7E6F960F5A906F008FD5BA /* ContrastFilter.h in Headers */,
+				FB7E6F970F5A906F008FD5BA /* GaborFilter.h in Headers */,
+				FB7E6F980F5A906F008FD5BA /* GaborGlobal.h in Headers */,
+				FB7E6F990F5A906F008FD5BA /* GaborJet.h in Headers */,
+				FB7E6F9A0F5A906F008FD5BA /* ImageFile.h in Headers */,
+				FB7E6F9B0F5A906F008FD5BA /* LogPolar.h in Headers */,
+				FB7E6F9C0F5A906F008FD5BA /* PGMImage.h in Headers */,
+				FB7E6F9D0F5A906F008FD5BA /* Utilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* GaborApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GaborApp" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaborApp;
+			productInstallPath = "$(HOME)/bin";
+			productName = Gabor;
+			productReference = 8DD76F6C0486A84900D96B5E /* gabor */;
+			productType = "com.apple.product-type.tool";
+		};
+		FB7E6F540F5A842B008FD5BA /* GaborLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7E6F580F5A8464008FD5BA /* Build configuration list for PBXNativeTarget "GaborLib" */;
+			buildPhases = (
+				FB7E6F510F5A842B008FD5BA /* Headers */,
+				FB7E6F520F5A842B008FD5BA /* Sources */,
+				FB7E6F530F5A842B008FD5BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaborLib;
+			productName = GaborLib;
+			productReference = FB7E6F550F5A842B008FD5BA /* libgabor.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Gabor" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Gabor */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* GaborApp */,
+				FB7E6F540F5A842B008FD5BA /* GaborLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7E6F6A0F5A8F18008FD5BA /* Gabor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7E6F520F5A842B008FD5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7E6F730F5A8F58008FD5BA /* ContrastFilter.cpp in Sources */,
+				FB7E6F900F5A902B008FD5BA /* GaborFilter.cpp in Sources */,
+				FB7E6F910F5A902B008FD5BA /* GaborJet.cpp in Sources */,
+				FB7E6F700F5A8F58008FD5BA /* ImageFile.cpp in Sources */,
+				FB7E6F720F5A8F58008FD5BA /* LogPolar.cpp in Sources */,
+				FB7E6F710F5A8F58008FD5BA /* PGMImage.cpp in Sources */,
+				FB7E6F6F0F5A8F58008FD5BA /* Utilities.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = gabor;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = gabor;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		FB7E6F560F5A842C008FD5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				PREBINDING = NO;
+				PRODUCT_NAME = gabor;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+			};
+			name = Debug;
+		};
+		FB7E6F570F5A842C008FD5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				PREBINDING = NO;
+				PRODUCT_NAME = gabor;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GaborApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Gabor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7E6F580F5A8464008FD5BA /* Build configuration list for PBXNativeTarget "GaborLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7E6F560F5A842C008FD5BA /* Debug */,
+				FB7E6F570F5A842C008FD5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

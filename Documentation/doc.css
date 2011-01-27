@@ -1,0 +1,166 @@
+A:link { 
+	text-decoration: none;  
+	border-bottom: 1px #66ff66 dotted; 
+	color: #FFFFFF;
+}
+A:visited { 
+	text-decoration: none;  
+	border-bottom: 1px #66ff66 dotted; 
+	color: #cccccc;
+}
+A:active { 
+	text-decoration: none;  
+	border-bottom: 1px #66ff66 dotted; 
+	color: #000000;
+}
+A:hover { 
+	text-decoration: none;  
+	border-bottom: 1px #66ff66 dotted; 
+	color: #FFFFFF;
+}
+
+BODY {
+	background-color: black;
+	background-image: url(http://www.kung-foo.tv/images/back.jpg);
+	background-repeat: repeat;
+	margin: 25px;
+}
+
+IMG.box 
+{
+	border: 1px #CCCCCC inset;
+}
+
+#textfield
+{
+	background-color: black;
+	padding:10px;
+	border: 1px #CCCCCC inset;
+	margin-top:12px;
+}
+
+P {
+	font-family: times new roman, times;
+	color: #eeeeee;
+	text-align: justify;
+	font-size: 13px;
+	line-height: 14px;
+	margin-top:4px;
+	margin-bottom:4px;
+	text-indent:0px;
+}
+
+.listheader {
+	text-indent:0px;
+	margin-top: 10px;
+	margin-bottom:4px;
+	margin-left:20px;
+	margin-right:20px;
+	border-top:1px #cccccc dotted;
+	padding-top:4px;
+}
+
+.list {
+	text-indent:0px;
+	margin-top: 0px;
+	margin-bottom:4px;
+	margin-left:20px;
+}
+
+.refs {
+	text-indent:-10px;
+	margin-top: 4px;
+	margin-bottom:6px;
+	margin-left:30px;
+	margin-right:50px;
+	line-height: 125%;
+	font-size:12px;
+}
+
+TD {
+	border:1px #cccccc outset;
+	background-color: #000000;
+	font-family: monaco, monospace;
+	color: #eeeeee;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 100%;
+}
+
+.title {
+	text-indent:0px;
+	font-size:16px;
+	text-align: center;
+	margin-top:0xp;
+	margin-bottom:20px;
+	border:0px;
+	border-bottom:1px #cccccc inset;
+	padding:4px;
+}
+
+.header {
+	font-size: 14px;
+	text-align: left;
+	text-indent: 25px;
+	margin-top: 10xp;
+	margin-bottom: 6px;
+	border-width: 1px;
+	border-color: #cccccc;
+	border-style: inset;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	padding:4px;
+	margin-right:50px;
+	margin-left:20px;
+}
+
+
+.code-green
+{
+	font-family: Monaco,monospace;
+	font-size: 9px;
+	text-align:left;
+	color: #66FF66; 
+}
+
+.code-gray
+{
+	font-family: Monaco,monospace;
+	font-size: 9px;
+	text-align:left;
+	color: #dddddd; 
+}
+
+.code-cyan
+{
+	font-family: Monaco,monospace;
+	font-size: 9px;
+	text-align:left;
+	color: #00FFFF; 
+}
+
+.code-yellow
+{
+	font-family: Monaco,monospace;
+	font-size: 9px;
+	text-align:left;
+	color: #FFFF00; 
+}
+
+.code-red
+{
+	font-family: Monaco,monospace;
+	font-size: 9px;
+	text-align:left;
+	color: #FF0000; 
+}
+
+.code-blue
+{
+	font-family: Monaco,monospace;
+	font-size: 9px;
+	text-align:left;
+	color: #0000ff; 
+}
+
